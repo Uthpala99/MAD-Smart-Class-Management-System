@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Gurugedara</string>
+    <string name="btn_add_announcement">ADD NEW ANNOUNCEMENT</string>
+    <string name="tv_topic">Topic</string>
+    <string name="tv_content">Content</string>
+    <string name="et_topic">Enter topic here</string>
+    <string name="et_content">Enter content here</string>
+    <string name="btn_save_announcement">Save</string>
+    <string name="btn_cancel_announcement">Cancel</string>
+    <string name="btn_update_announcement">UPDATE</string>
+    <string name="btn_delete_announcement">DELETE</string>
 </resources>
