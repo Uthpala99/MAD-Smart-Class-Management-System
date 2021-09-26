@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_note"
+    android:orientation="vertical"
+    tools:context=".AddNote">
+
+    <EditText
+        android:id="@+id/title_add"
+        android:layout_width="352dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="@string/title_add"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/description_add"
+        android:layout_width="352dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/description_add"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_add" />
+
+
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="226dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:text="@string/add_btn"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:backgroundTint="#1E90FF"
+        app:cornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_add" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

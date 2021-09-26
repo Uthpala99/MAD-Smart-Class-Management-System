@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Gurugedara</string>
+    <string name="title_add">Note Title</string>
+    <string name="description_add">Type here...</string>
+    <string name="add_btn">Add</string>
+    <string name="title_update">Note Title</string>
+    <string name="update_btn">Update</string>
+    <string name="description_update">Type here..</string>
+    <string name="delete_btn">Delete</string>
+    <string name="text_view">No Data</string>
+    <string name="issue_text">Type of issue</string>
+    <string name="issue_input">Input your issue type</string>
+    <string name="priority_text">Priority Level</string>
+    <string name="priority_input">Type here(good,bad,etc..)</string>
+    <string name="comment_text">Comment your issue</string>
+    <string name="comment_input">Type here..</string>
+    <string name="save_button">Save</string>
+
 </resources>
