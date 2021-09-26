@@ -9,7 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Gurugedara">
-        <activity android:name=".MainActivity">
+        <activity android:name=".UpdateAnnouncement"
+            android:parentActivityName=".Announcement"
+            ></activity>
+        <activity
+            android:name=".Add_Announcement"
+            android:label="Add Announcements"
+            android:parentActivityName=".Announcement" />
+        <activity
+            android:name=".Announcement" />
+        <activity
+            android:name=".MainActivity"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
