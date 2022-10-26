@@ -18,7 +18,7 @@ public class AnnouncementDatabaseHelper extends SQLiteOpenHelper {
     private static final String TABLE_NAME ="announcements";
     private static final String COLUMN_ID = "_id" ;
     private static final String COLUMN_TOPIC = "announcement_topic";
-    private static final String COLUMN_CONTENT = "announcement_content";
+    private static final String COLUMN_CONTENT =  "announcement_content";
 
 
     public AnnouncementDatabaseHelper(@Nullable Context context) {
